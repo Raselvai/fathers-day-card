@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Edu VIC WA NT Hand", cursive;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper .card_item {
+	max-width: 370px;
+	width: 100%;
+	margin: 0 auto;
+	background: linear-gradient(#005699,#004375);
+	border-radius: 10px;
+	padding: 25px;
+	transition: 0.4s all ease-in-out;
+}
+
+.wrapper .card_item:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 4px 16px rgb(0 0 0 / 47%);
+}
+
+.wrapper .card_item h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.wrapper .card_item p {
+		font-size: 18px;
+		margin-top: 10px;
+		color: #ffffff;
+}
+
+.wrapper .card_item h3 {
+	font-size: 28px;
+	margin-top: 20px;
+	color: #ffffff;
+}
